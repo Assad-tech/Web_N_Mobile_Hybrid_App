@@ -1,0 +1,211 @@
+*{ font-family: Arial, Helvetica, sans-serif; background-color: whitesmoke;}
+
+.top-nav{background-color:rgb(36, 103, 204); width: 100%; max-height: 45px; position: fixed; top: 0px; }
+.icon{background-color: rgb(36, 103, 204); width: 420px; height: 45px; text-align: center; float: left;}
+.nav-icon{margin: 10px 5px 4px 0px; max-width: 20px; cursor: pointer;}
+#para1{background-color: rgb(36, 103, 204); color:white; margin:0px; padding:14px 8px 13px 10px; text-align: center; font-size: 16px; float: left;}
+.donate{background-color: rgb(36, 103, 204); width: 370px; height: 45px; text-align: center; border: none; float: left;}
+.donate .btn{border: none; font-size: 12px; max-width:100px; padding: 5px 8px 5px 8px; margin: 8px 1px 1px 1px;}
+.donate .btn a{text-decoration: none; color:black;}
+
+/* Navigation Manu... Pages From here.
+ */
+.Nav2{clear: both; width: 100%; min-width: 10%; max-height: 250px; position: fixed; top: 45px;}
+.Nav2 .logo{width: 300px; display: inline-block; float: left;}
+.Nav2 .logo img{max-width:200px; max-height:50px; margin:10px 0px 0px 120px;}
+
+
+.Nav2 ul{margin:0; padding:0; list-style:none;}
+.Nav2 #mainav{text-align:center; text-transform: capitalize; width: 60%; max-height: 130px; float: left; margin:25px 100px;}
+.Nav2 #mainav ul li .drop::after{position:absolute; font-size:20px;}
+.Nav2 #mainav ul li a:hover{ color:white; background-color:rgb(36, 103, 204); transition: .3s; transform:translate(3px, 0px);}
+.Nav2 #mainav ul ul{z-index:9999; position:absolute; width:180px;}
+.Nav2 #mainav ul ul ul{left:180px; top:0px; width: 320px;}
+.Nav2 #mainav li{display:inline-block; position:relative; margin:0 20px 0 0; padding:0;}
+.Nav2 #mainav li:last-child{margin-right:0;}
+.Nav2 #mainav li li{width:100%; margin:0; text-align:left; text-transform:none;}
+.Nav2 #mainav li a{display:block; padding:0; text-decoration:none; color: black; background-color: white; border-radius: 5px;}
+.Nav2 #mainav li li a{border:solid; border-width:0px 0px 0px 0px;}
+/* .Nav2 #mainav .drop{padding-left:0px;} */
+.Nav2 #mainav li li a, #mainav li li .drop{display:block; margin:0; padding:5px 0px;}
+.Nav2 #mainav .drop::after, #mainav li li .drop::after{content:"\f0d7";}
+.Nav2 #mainav ul ul{display:none;}
+.Nav2 #mainav ul li:hover > ul{display:block;}
+
+/* Main Area of Website....
+ */
+
+ /* Homepage Slider
+  */
+#slider{margin:128px 0px 0px 0px; width: max-content; height:550px;}
+#slider figure{margin: 0; padding: 0px;}
+#slider figure img{ width: 83.5%; height: 550px;}
+
+/*NewsLine
+ */
+#news{ clear: left; width: 100%; height: 30px; background-color: white; padding: 10px; margin: 0px 0px 25px 0px;}
+#news #para2{margin:0% 10% 2% 10%;  width: 80%: }
+#news #para2 marquee{padding: 5px; color: white; background-color:rgb(36, 103, 204); text-align: center;}
+#news #para2 marquee a{text-decoration: none; color:blue; background-color:rgb(36, 103, 204);}
+#news #para2 marquee .color{color: lightgreen; background-color: rgb(36, 103, 204);}
+
+/* IntroDuction of Saylani Trust
+ */
+ #Intro{width: 80%; word-spacing: 2px;  clear: both; margin: 4% 2% 5% 10%;}
+ #Intro #para3{text-align: justify; line-height: 27px; color: lightslategray;}
+ #Intro img{margin:20px 0px 0px 380px;}
+
+ /* Information in Quantity
+  */
+#info{width: 100%; height: 330px; background-color:rgb(19, 104, 231); margin: 5px 0px 20px 0px; padding:0px; border:1px solid black ;}
+/* Each box of data in Information Section.
+ */
+#info .data{width: 250px; height: 140px; background-color:rgb(19, 104, 231); float: left; margin:120px 20px 0px 96px ; }
+#info .data2{width: 250px; height: 140px; background-color:rgb(19, 104, 231); float: left; margin:120px 20px 0px 35px ; }
+#info .data3{width: 250px; height: 140px; background-color:rgb(19, 104, 231); float: left; margin:120px 20px 0px 25px ; }
+#info .data4{width: 250px; height: 140px; background-color:rgb(19, 104, 231); float: left; margin:120px 20px 0px 25px ; }
+/* Icons of Data for each
+ */
+#info .data img{width: 50px; margin: 0px 0px 10px 100px; border-radius: 50%; background-color: rgb(19, 104, 231);}
+#info .data2 img{width: 50px; margin: 0px 0px 10px 100px; border-radius: 50%; background-color: rgb(19, 104, 231);}
+#info .data3 img{width: 50px; margin: 0px 0px 10px 100px; border-radius: 50%; background-color: rgb(19, 104, 231);}
+#info .data4 img{width: 50px; margin: 0px 0px 10px 100px; border-radius: 50%; background-color: rgb(19, 104, 231);}
+/*Written Material in Data
+ */
+#info .data-p{color: white; font-size: 2.5em; text-align: center; background-color:rgb(19, 104, 231); margin: 0px; font-weight: bold; font-family: 'Times New Roman', Times, serif}
+#info .data-p2{color: white; font-size: 17px; text-align: center; background-color:rgb(19, 104, 231); text-transform: uppercase; margin: 0px; font-weight: bold; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+#info .data-p2 .color{color: lightgreen; background-color: rgb(19, 104, 231);}
+
+/* WHAT WE ARE DOING?? BoXES
+ */
+
+#services{clear: both; width: 100%; height: 580px;}
+#services img{margin:0px 0px 10px 470px;}
+
+/*Our services... 
+ */
+#services .row1{width: 100%; height: 200px; margin-top: 10px;}
+#services .row2{width: 100%; height: 200px; margin-top: 30px;}
+
+/* Each box in Services Section 
+ */
+#services .row1 .box1{width: 350px; height: 190px; margin: 0px 0px 0px 90px; background-color: white; box-shadow:1px 1px 10px 2px gray; display: inline-block;}
+#services .row1 .box2{width: 350px; height: 190px; margin: 0px 0px 0px 40px; background-color: white; box-shadow:1px 1px 10px 2px gray; display: inline-block;}
+#services .row1 .box3{width: 350px; height: 190px; margin: 5px 0px 0px 40px; background-color: white; box-shadow:1px 1px 10px 2px gray; display: inline-block;}
+
+#services .row2 .box1{width: 350px; height: 190px; margin: 0px 0px 0px 90px; background-color: white; box-shadow:1px 1px 10px 2px gray; display: inline-block;}
+#services .row2 .box2{width: 350px; height: 190px; margin: 0px 0px 0px 40px; background-color: white; box-shadow:1px 1px 10px 2px gray; display: inline-block;}
+#services .row2 .box3{width: 350px; height: 190px; margin: 5px 0px 0px 40px; background-color: white; box-shadow:1px 1px 10px 2px gray; display: inline-block;}
+
+/* Icons for Each box
+ */
+#services .row1 .box1 img{width: 60px; border-radius: 50%; background-color: darkblue; margin: 30px 0px 0px 150px;}
+#services .row1 .box2 img{width: 60px; border-radius: 50%; background-color: darkblue; margin: 30px 0px 0px 150px;}
+#services .row1 .box3 img{width: 60px; border-radius: 40%; background-color: white; margin: 30px 0px 0px 150px;}
+
+#services .row2 .box1 img{width: 60px; border-radius: 50%; background-color: darkblue; margin: 30px 0px 0px 150px;}
+#services .row2 .box2 img{width: 60px; height: 60px; border-radius: 30%; background-color: white; margin: 30px 0px 0px 150px;}
+#services .row2 .box3 img{width: 60px; border-radius: 50%; background-color: white; margin: 30px 0px 0px 150px;}
+
+/* Written material in boxes
+ */
+
+#services .row1 .box1 p .data-p3{color: rgb(19, 104, 231); font-size: 20px;  margin: 0px; padding: 0px 95px 0px 100px;  background-color: white; text-decoration: none; font-weight: bold; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+#services .row1 .box2 p .data-p3{color: rgb(19, 104, 231); font-size: 20px;  margin: 0px; padding: 0px 130px 0px 130px; background-color: white; text-decoration: none; font-weight: bold; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+#services .row1 .box3 p .data-p3{color: rgb(19, 104, 231); font-size: 20px;  margin: 0px; padding: 0px 126px 0px 138px; background-color: white; text-decoration: none; font-weight: bold; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+
+#services .row2 .box1 p .data-p3{color: rgb(19, 104, 231); font-size: 20px;  margin: 0px; padding: 0px 110px 0px 110px;  background-color: white; text-decoration: none; font-weight: bold; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+#services .row2 .box2 p .data-p3{color: rgb(19, 104, 231); font-size: 20px;  margin: 0px; padding: 0px 120px 0px 135px; background-color: white; text-decoration: none; font-weight: bold; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+#services .row2 .box3 p .data-p3{color: rgb(19, 104, 231); font-size: 20px;  margin: 0px; padding: 0px 112px 0px 127px; background-color: white; text-decoration: none; font-weight: bold; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+
+/* OUR MISSION AND UPCOMMING PROJECTS.. BoXes
+ */
+/* Mission Box
+ */
+#Mission{clear: both; width: 100%; height: 400px; background-color: white;}
+#Mission .head-1{font-size: 2em; color:rgb(19, 104, 231); background-color: white; display: inline-block;  margin: 30px 0px 0px 90px; padding-bottom: 10px; border-bottom: 3px  solid black; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+
+
+/* inside Mission >> Projects box
+ */
+#Mission #project{width: 700px; height: 250px; margin: 30px 0px 10px 60px; float: left; background-color: white;}
+
+/* Projects Data in 2 rows
+ */
+#Mission #project .row3{width: 100%; height: 90px; margin-top: 20px; background-color: white;}
+#Mission #project .row4{width: 100%; height: 90px; margin-top: 10px; background-color: white;}
+
+/* each project in a row
+ */
+#Mission #project .row3 .up-1{width:300px; height: 70px; margin: 10px 0px 0px 35px; float: left; border:1px solid black}
+#Mission #project .row3 .up-2{width:300px; height: 70px; margin: 10px 0px 0px 35px; float: left; border:1px solid black}
+
+#Mission #project .row4 .up-3{width:300px; height: 70px; margin: 10px 0px 0px 35px; float: left; border:1px solid black}
+#Mission #project .row4 .up-4{width:300px; height: 70px; margin: 10px 0px 0px 35px; float: left; border:1px solid black}
+
+/* Icon for each project
+ */
+#Mission #project .row3 .up-1 .pointer1 img{width:60px; height: 50px; margin: 8px;  float: left; border-radius: 75%;}
+#Mission #project .row3 .up-2 .pointer1 img{width:60px; height: 50px; margin: 8px;  float: left; border-radius: 75%;}
+
+#Mission #project .row4 .up-3 .pointer1 img{width:60px; height: 50px; margin: 8px;  float: left; border-radius: 75%;}
+#Mission #project .row4 .up-4 .pointer1 img{width:60px; height: 50px; margin: 8px;  float: left; border-radius: 75%;}
+
+/* written deatials for each project
+ */
+#Mission #project .row3 .up-1 .para4{display: inline-flex; font-size: 1.1em; font-weight: bold;  float: left; margin: 22px 0px 0px 5px; color:rgb(19, 104, 231); font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+#Mission #project .row3 .up-2 .para4{display: inline-flex; font-size: 1.1em; font-weight: bold;  float: left; margin: 22px 0px 0px 5px; color:rgb(19, 104, 231); font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+
+#Mission #project .row4 .up-3 .para4{display: inline-flex; font-size: 1.1em; font-weight: bold;  float: left; margin: 22px 0px 0px 5px; color:rgb(19, 104, 231); font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+#Mission #project .row4 .up-4 .para4{display: inline-flex; font-size: 1.1em; font-weight: bold;  float: left; margin: 22px 0px 0px 5px; color:rgb(19, 104, 231); font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+
+/* UPComming Event Box for latest News
+ */
+#Mission .head-2{font-size: 1.5em; color:rgb(19, 104, 231); background-color: white; display: inline-block;  margin: 30px 0px 0px 187px; padding-bottom: 10px; border-bottom: 3px  solid black; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+#Mission #event{width:260px; height:300px; background-color: white; margin: 5px 0px 20px 830px;}
+/* Each news properties
+ */
+#Mission #event .para5{font-size: 15.5px; word-spacing: 4px; color: gray; background-color: white;}
+#Mission #event .para5 .color2{color: rgb(19, 104, 231); background-color: white; cursor: pointer;}
+
+/* Image Gallery 
+*/
+#gallery{width:100%; height:500px; text-align: center; background-color: white;}
+#gallery img{margin: 60px 0px 20px 0px;}
+
+/*images in single row 
+ */
+#gallery #row5{width: 85%; height: 200px; margin: 0 auto; background-color: white;}
+#gallery #row5 a {background-color: white;}
+#gallery #row5 a .G-1{width:210px; height: 150px; margin: 20px 5px 10px 0px; }
+
+/* Footer Area
+ */
+ #end{width: 100%; height: 445px; border: 1px solid blue;}
+
+ /* Upper footer
+ */
+ #end #mainF{width: 100%; height: 400px; background-color: rgba(0, 0, 0, 0.877);}
+ #end #mainF #addr{width: 380px; height: 300px; float: left; margin: 70px 0px 0px 110px; background-color:rgba(32, 32, 32, 0.877);}
+
+ /* Upper footer with address and Details
+*/
+#end #mainF #addr address{color: whitesmoke; background-color: rgba(32, 32, 32, 0.877);}
+#end #mainF #addr address .para6{width: 380px; color: whitesmoke; background-color: rgba(32, 32, 32, 0.877);}
+#end #mainF #addr address .para6 img{width: 16px; background-color: rgba(32, 32, 32, 0.877); border-radius: 50%;}
+
+#end #mainF #para7{width: 300px;padding-bottom:5px; margin:50px 0px 0px 90px ; border-bottom: 2px solid lightgreen; color:white; background-color:rgba(32, 32, 32, 0.877); float: left; font-weight: bold; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+
+/* Upper footer with Social Icons
+*/
+#connect .icon2{background-color:rgba(32, 32, 32, 0.877); width: 250px; height: 45px;margin: 10px 110px 0px 0px; float: right;}
+#connect .nav-icon2{margin: 10px 5px 0px 0px; max-width: 30px; border-radius: 50%; cursor: pointer;}
+
+/* Lower footer CopyRights
+*/
+#end #copyR{width: 100%; height: 45px; background-color:rgb(19, 104, 231);}
+#end #copyR #para8{font-size: 12px; display: inline-block; margin: 15px 0px 18px 110px; color: white; background-color:rgb(19, 104, 231);}
+
+#end #top{width:40px; height:37px; border-radius: 50%; position:fixed; top:92%; right: 1%;}
+
+/*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%THE END OF SAYALNI WEBPAGE%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/

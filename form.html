@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+   <center>
+    <img src="../img/Saylani-logo.png" alt="Saylani Logo">
+   </center>
+    <h1>STUDENT REGISTRATION FORM</h1>
+      <form class="main" action="www.saylani.com">
+         <p><label for="F/name">FIRST NAME</label><input id="F/name" required type="text" placeholder="Exp Asad" name="first name"> (max 30 Charachers a-z and A-Z)</p>
+         <label for="L/name">LAST NAME</label><p><input id="L/name"  required type="text" placeholder="Exp Phull" name="first name"> (max 30 Charachers a-z and A-Z)</p>
+         <label for="DOB">DATE OF BIRTH</label>
+         <p><select required name="drop" id="D">
+           <option selected value="Day">Day</option>
+           <option  value="01">01</option>
+           <option  value="02">02</option>
+           <option  value="03">03</option>
+           <option  value="04">04</option>
+           <option  value="05">05</option>
+           <option  value="06">06</option>
+           <option  value="07">07</option>
+           <option  value="08">08</option>
+           <option  value="09">09</option>
+           <option  value="10">10</option>
+           <option  value="11">11</option>
+           <option  value="12">12</option>
+           <option  value="13">13</option>
+           <option  value="14">14</option>
+           <option  value="15">15</option>
+           <option  value="16">16</option>
+           <option  value="17">17</option>
+           <option  value="18">18</option>
+           <option  value="19">19</option>
+           <option  value="20">20</option>
+           <option  value="21">21</option>
+           <option  value="22">22</option>
+        </select>
+        <select required name="Month" id="O">
+            <option selected value="Month">Month</option>
+            <option  value="01">Jan</option>
+            <option  value="02">Feb</option>
+            <option  value="03">Mar</option>
+            <option  value="04">Apr</option>
+            <option  value="05">May</option>
+            <option  value="06">Jun</option>
+            <option  value="07">Jul</option>
+            <option  value="08">Aug</option>
+            <option  value="09">Sep</option>
+            <option  value="10">Oct</option>
+            <option  value="11">Nov</option>
+            <option  value="12">Dec</option>
+         </select>
+         <select required name="Year" id="B">
+            <option selected value="Year">Year</option>
+            <option  value="01">1995</option>
+            <option  value="02">1996</option>
+            <option  value="03">1997</option>
+            <option  value="04">1998</option>
+            <option  value="05">1999</option>
+            <option  value="06">2001</option>
+            <option  value="07">2002</option>
+            <option  value="08">2003</option>
+            <option  value="09">2004</option>
+            <option  value="10">2005</option>
+            <option  value="11">2006</option>
+            <option  value="12">2007</option>
+         </select></p>
+         <p><label for="email">EMAIL ID </label><input required id="email"  type="email" placeholder="Exp abc@gmail.com" name="email" /></p>
+         
+         <p><label for="number">MOBILE NUMBER</label> <input required id="number" type="text" placeholder="Exp 03001234567" name="number" /> (max 11 digits )</p>
+         
+         <label for="gender">GENDER</label>
+         <p> 
+            Male <input required id="gender" type="radio" name="gender">
+            Female <input required type="radio" name="gender">
+         </p>
+         <label for="address">ADDRESS</label><p><textarea required id="address" placeholder="Address Here.." cols="35" rows="4" name="address"></textarea></p>
+
+         <label for="city">CITY</label><p><input required id="city" type="text" placeholder="Exp Naushahro Feroze" name="city"> (max 30 Charachers a-z and A-Z)</p>
+
+         <label for="zipcode">ZIP CODE</label><p><input required id="zipcode" type="text" placeholder="Exp 67370" name="zipcode"> (6 Digit Number)</p>
+
+         <label for="province">PROVINCE</label><p><input required id="province" type="text" placeholder="Exp Sindh" name="PROVINCE"> (max 30 Charachers a-z and A-Z)</p>
+
+         <label for="counrty">COUNTRY</label><p><input required id="country" type="text" placeholder="Exp Pakistan" name="country"></p>
+
+         <label for="hobbies">HOBBIES</label> 
+         <p>
+            Drawing <input required id="hobbies" type="checkbox" name="hobbies"> 
+            Singing <input type="checkbox" name="hobbies">
+            Dancing <input type="checkbox" name="hobbies">
+            Sketching <input type="checkbox" name="hobbies">
+            Others <input type="checkbox" name="hobbies"> <input type="text" placeholder="Please Specify" name="others"></p>
+        <label for="qualification">QUALIFICATION</label>
+        <table>
+           <tr>
+              <th>Sl.No.</th>
+              <th>Examination</th>
+              <th>Board</th>
+              <th>Percentage</th>
+              <th>Year of Passing</th>
+           </tr>
+           <tr>
+            <td>01</td>
+            <td>Class X</td>
+            <td><input type="text" name="board"></td>
+            <td><input type="text" name="percentage"></td>
+            <td><input type="text" name="year of passing"></td>
+           </tr>
+           <tr>
+            <td>02</td>
+            <td>Class XII</td>
+            <td><input type="text" name="board"></td>
+            <td><input type="text" name="percentage"></td>
+            <td><input type="text" name="year of passing"></td>
+           </tr>
+           <tr>
+            <td>03</td>
+            <td>Graduation</td>
+            <td><input type="text" name="board"></td>
+            <td><input type="text" name="percentage"></td>
+            <td><input type="text" name="year of passing"></td>
+           </tr>
+           <tr>
+            <td>04</td>
+            <td>Masters</td>
+            <td><input type="text" name="board"></td>
+            <td><input type="text" name="percentage"></td>
+            <td><input type="text" name="year of passing"></td>
+           </tr>
+           <tr>
+            <td> </td>
+            <td></td>
+            <td align="center">(10 char Max)</td>
+            <td align="center">  (upto 2 decimal)</td>
+            <td></td>
+           </tr>
+        </table>
+      <label for="course">COURSES <br>APPLIED FOR</label><p>
+         BCA <input  required id="course" class="getin" type="radio" name="course">
+         B.com <input  type="radio" name="course">
+         B.Sc <input  type="radio" name="course">
+         BA <input  type="radio" name="course">
+      </p>
+      <span id="btn">
+         <button type="submit"><a href="Done.html">Submit</a></button>
+         <button type="reset">Reset</button>
+      </span>
+       </form>
+</body>
+</html>
