@@ -1,0 +1,41 @@
+.logo{width: 100px;}
+.img1{width:100%; height: 400px;}
+.img2{width: 70%;}
+.img3{width: 70px;}
+.img4{width: 250px;}
+.card-body{height: 230px;}
+.text1{font-size:large;}
+.box1{height: 120px;}
+.box3{height: 300px;}
+
+/* This CSS is for Bachelor>> Information Technology */
+
+.head4{height: 120px; border: 1px solid rgb(45, 120, 167);}
+
+/* THis CSS is for Login Main form */
+
+.modal-login {width: 350px; margin-top: 10%;}
+.modal-login .modal-header { border-bottom: none;   justify-content:right;}
+.modal-login h5 { color: black; font-weight: normal; text-align: center !important;}
+.modal-login .modal-content { color: #999 !important;    border-radius: 10px !important;    background: #fff;    border: 1px solid #f3f3f3;    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);    padding: 18px;}
+
+.modal-login .form-group { margin-bottom: 20px;}
+.modal-login .bttn{margin-top: 30px;}
+.modal-login .form-control { min-height: 40px;    padding-left: 10px;    box-shadow: none !important;    border-width: 0 0 1px 0;    border-radius: 0;}
+.modal-login .form-control:focus { border-color: #ccc;}
+
+.modal-login .input-group-addon { max-width: 42px !important;        background: none;    border-width: 0 0 1px 0;    border-radius: 0;}
+.modal-login .btn { font-size: 14px;    font-weight: normal;    background: #19aa8d;    border-radius: 3px;     min-width: 110px;    outline: none !important;}
+.modal-login .btn:hover, .modal-login .btn:focus {    background: #179b81;}
+
+.modal-login .modal-footer .head5{font-weight: normal;}
+.modal-login .modal-footer .hint-text {justify-content: right; !important;   margin-bottom: 25px;   font-size: 13px;}
+.modal-login .modal-footer { color: #999;    border-color: #dee4e7;    text-align: center;    margin: 0 -25px -25px;    font-size: 13px;    justify-content: center;}
+
+.modal-login a { color: #fff;    text-decoration: underline;}
+.modal-login a:hover { text-decoration: none;}
+.modal-login a { color: #19aa8d;    text-decoration: none;}
+.modal-login a:hover { text-decoration: underline;}
+.modal-login .fa { font-size: 18px;}
+
+

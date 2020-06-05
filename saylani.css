@@ -11,7 +11,7 @@
 /* Navigation Manu... Pages From here.
  */
 .Nav2{clear: both; width: 100%; min-width: 10%; max-height: 250px; position: fixed; top: 45px;}
-.Nav2 .logo{width: 300px; display: inline-block; float: left;}
+.Nav2 .logo{width: 300px; display: inline-block; float:left;}
 .Nav2 .logo img{max-width:200px; max-height:50px; margin:10px 0px 0px 120px;}
 
 
@@ -28,6 +28,7 @@
 .Nav2 #mainav li li a{border:solid; border-width:0px 0px 0px 0px;}
 /* .Nav2 #mainav .drop{padding-left:0px;} */
 .Nav2 #mainav li li a, #mainav li li .drop{display:block; margin:0; padding:5px 0px;}
+#mainav li li .drop .down {transform: rotate(45deg); -webkit-transform: rotate(45deg);}
 .Nav2 #mainav .drop::after, #mainav li li .drop::after{content:"\f0d7";}
 .Nav2 #mainav ul ul{display:none;}
 .Nav2 #mainav ul li:hover > ul{display:block;}
