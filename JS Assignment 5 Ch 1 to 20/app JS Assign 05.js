@@ -443,7 +443,7 @@
 // alert("Odd Number.")
 
 // Task: x
-var temp = +prompt("Enter Today's Temperature.")
+// var temp = +prompt("Enter Today's Temperature.")
 // if(temp >= 0 & temp <= 19 ){
 //     alert("OMG! Today’s weather is so Cool.")
 // }
@@ -457,4 +457,23 @@ var temp = +prompt("Enter Today's Temperature.")
 //     alert("It is too hot Outside.")
 // }
 
-// Task
+// // Task xi
+var firstNum = +prompt("First Number.")
+var operator = prompt("Operation(/, *, +, -, %): ")
+var secondNum = +prompt("Second Number.")
+document.write("<b>Calculator</b> <br>")
+if(operator === "+"){
+    document.write("Answer: "+firstNum+" + "+secondNum+" = "+(firstNum+secondNum))
+}
+else if(operator === "-"){
+    document.write("Answer: "+firstNum+" - "+secondNum+" = "+(firstNum-secondNum))
+}
+else if(operator === "*"){
+    document.write("Answer: "+firstNum+" * "+secondNum+" = "+(firstNum*secondNum))
+}
+else if(operator === "/"){
+    document.write("Answer: "+firstNum+" / "+secondNum+" = "+(firstNum/secondNum))
+}
+else if(operator === "%"){
+    document.write("Answer: "+firstNum+" % "+secondNum+" = "+(firstNum%secondNum))
+}
