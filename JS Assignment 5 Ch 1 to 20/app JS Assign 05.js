@@ -271,19 +271,190 @@
 // }
 
 // Task: v
-var arrSub = ["English", "Math", "Science"]
-var eachTotal = [100,100,100]
-var eachObtained = [54,54,48]
-var percen = [eachObtained[0]/eachTotal[0]*100, eachObtained[1]/eachTotal[0]*100,eachObtained[2]/eachTotal[0]*100]
-var marksObtinedTotal = eachObtained[0]+eachObtained[1]+eachObtained[2]
-var marksTotal = eachTotal[0]+eachTotal[1]+eachTotal[2]
-var percenTotal = marksObtinedTotal/marksTotal*100
-document.write("<b>Subject Total Obt %</b> <br>")
-document.write(arrSub[0]+" "+eachTotal[0]+" "+eachObtained[0]+" "+percen[0]+"% <br>")
-document.write(arrSub[1]+" "+eachTotal[1]+" "+eachObtained[1]+" "+percen[1]+"% <br>")
-document.write(arrSub[2]+" "+eachTotal[2]+" "+eachObtained[2]+" "+percen[2]+"% <br>")
-document.write("<b>Total  "+marksTotal+" "+marksObtinedTotal+" "+percenTotal+"% </b>")
+// var arrSub = ["English", "Math", "Science"]
+// var eachTotal = [100,100,100]
+// var eachObtained = [54,54,48]
+// var percen = [eachObtained[0]/eachTotal[0]*100, eachObtained[1]/eachTotal[0]*100,eachObtained[2]/eachTotal[0]*100]
+// var marksObtinedTotal = eachObtained[0]+eachObtained[1]+eachObtained[2]
+// var marksTotal = eachTotal[0]+eachTotal[1]+eachTotal[2]
+// var percenTotal = marksObtinedTotal/marksTotal*100
+// document.write("<b>Subject__Total__Obt__Percentage</b> <br>")
+// document.write(arrSub[0]+"__"+eachTotal[0]+" ___ "+eachObtained[0]+" __ "+percen[0]+"% <br>")
+// document.write(arrSub[1]+"____"+eachTotal[1]+" ___ "+eachObtained[1]+" __ "+percen[1]+"% <br>")
+// document.write(arrSub[2]+" _ "+eachTotal[2]+"  ___ "+eachObtained[2]+" __ "+percen[2]+"% <br>")
+// document.write("<b>Total  ___ "+marksTotal+" ___ "+marksObtinedTotal+" _ "+percenTotal+"% </b>")
 
 // Chapter O9-11
 
 // Task: i
+// var city = prompt("Enter City Name.")
+// if(city === "karachi"){
+//     alert("Wellcome to city of Lights..")
+// }
+// else
+// alert("Another City.")
+
+// Task: ii
+// var gendr = prompt("Enter Your Gender.")
+// if(gendr === "male"){
+//     alert("Good Morning Sir.")
+// }
+// else if(gendr ==="female"){
+//     alert("Good Morning Ma'am.")
+// }
+// else
+// alert("Invalid Input.")
+
+// Task: iii
+// var signalColor = prompt("Enter Tarffic Signal Color: ")
+// if(signalColor === "red"){
+//     alert("You Must Stop on Red Color.")
+// }
+// else if(signalColor ==="yellow"){
+//     alert("Get Ready yourself to Move on Yellow Color.")
+// }
+// else if(signalColor === "green"){
+//     alert("You can Move Now.")
+// }
+
+// Task: iv
+// var fuelStatus = +prompt("Enter remaining Fuel in litters: ")
+// if(fuelStatus <= 0.75){
+//     alert("Please refill the fuel in your car")
+// }
+// else if(fuelStatus >= 1 & fuelStatus <= 10){
+//     alert("You have enough Fuel in your car to cover 3-120 km easily")
+// }
+// else if(fuelStatus >= 10 & fuelStatus <= 30){
+//     alert("No need to refill the fuel in your car")
+// }
+
+// Task: v
+// 1st Portion
+// var a = 4;
+// if (++a === 5){
+//     alert("given condition for variable (a) is true");
+// }
+// var b = 82;
+// if (b++ === 83){
+//     alert("given condition for variable (b) is true");
+// }
+// var c = 12;
+// if (c++ === 13){
+//     alert("condition 1 is true");
+// }
+// if (c === 13){
+//     alert("condition 2 is true");
+// }
+// if (++c < 14){
+//     alert("condition 3 is true");
+// }
+// if(c === 14){
+//     alert("condition 4 is true");
+// }
+// 2nd Portion
+// var materialCost = 20000;
+// var laborCost = 2000;
+// var totalCost = materialCost + laborCost;
+// if (totalCost === laborCost + materialCost){
+//     alert("The cost equals");
+// }
+// if (true){
+//     alert("True");
+// }
+// if (false){
+//     alert("False");
+// }
+// if("car" < "cat"){
+//     alert("car is smaller than cat");
+// }
+
+// Task: vi
+// var subjct1 = +prompt("Enter Subject1 Obtained marks: ")
+// var subjct2 = +prompt("Enter Subject2 Obtained marks: ")
+// var subjct3 = +prompt("Enter Subject3 Obtained marks: ")
+// var allSub = subjct1+subjct2+subjct3
+// var allSubTotalMarks = 300
+// var allPercentage = allSub/allSubTotalMarks*100
+// document.write("<h2>MaarkSheet</h2> <br>")
+// if(allPercentage >= 40 & allPercentage <= 49){
+//     document.write("Total Marks: "+allSubTotalMarks+"<br>")
+//     document.write("Obtained Marks: "+allSub+"<br>")
+//     document.write("Percentage: "+allPercentage+"<br>")
+//     document.write("Grade: D"+"<br>")
+//     document.write("Remarks: Very Poor Result.")
+// }
+// else if(allPercentage <= 59){
+//     document.write("Total Marks: "+allSubTotalMarks+"<br>")
+//     document.write("Obtained Marks: "+allSub+"<br>")
+//     document.write("Percentage: "+allPercentage+"<br>")
+//     document.write("Grade: Fail"+"<br>")
+//     document.write("Remarks: Sorry. Try Next Time.")
+// }
+// else if(allPercentage >= 60 & allPercentage <= 79){
+//     document.write("Total Marks: "+allSubTotalMarks+"<br>")
+//     document.write("Obtained Marks: "+allSub+"<br>")
+//     document.write("Percentage: "+allPercentage+"<br>")
+//     document.write("Grade: B"+"<br>")
+//     document.write("Remarks: You Need to Improve.")
+// }
+// else if(allPercentage >= 70 & allPercentage <= 79){
+//     document.write("Total Marks: "+allSubTotalMarks+"<br>")
+//     document.write("Obtained Marks: "+allSub+"<br>")
+//     document.write("Percentage: "+allPercentage+"<br>")
+//     document.write("Grade: A"+"<br>")
+//     document.write("Remarks: Good.")
+// }
+// else if(allPercentage >= 80 & allPercentage <= 100){
+//     document.write("Total Marks: "+allSubTotalMarks+"<br>")
+//     document.write("Obtained Marks: "+allSub+"<br>")
+//     document.write("Percentage: "+allPercentage+"<br>")
+//     document.write("Grade: A-One"+"<br>")
+//     document.write("Remarks: Excellent.")
+// }
+// Task: vii
+// var secretNo = 3
+// var guessSecretNo = +prompt("Guess the Number (ranging from 1-10)")
+// if(guessSecretNo === secretNo){
+//     alert("Bingo! Correct answer.")
+// }
+// else if(guessSecretNo === ++secretNo){
+//     alert("Close enough to the correct answer")
+// }
+// else
+// alert("Wrong answetr.!")
+
+// Task: viii
+// var num = +prompt("Enter any number to check whether it dividible by 3:")
+// var divisibleBy3 = num%3
+// if(divisibleBy3 === 0){
+//     alert(num+" is divisible by 3. And the answer: "+num/3)
+// }
+// else
+// alert(num+" is not exactly divisible by 3")
+
+// // Task: ix
+// var numberType = +prompt("Enter any Number.(except 0)")
+// var evenNo = numberType%2
+// if(evenNo === 0){
+//     alert("Even Number.")
+// }
+// else
+// alert("Odd Number.")
+
+// Task: x
+var temp = +prompt("Enter Today's Temperature.")
+// if(temp >= 0 & temp <= 19 ){
+//     alert("OMG! Today’s weather is so Cool.")
+// }
+//  else if(temp > 20  & temp <= 29){
+//     alert("Today’s weather is Cool.")
+// }
+// else if(temp > 30  & temp <= 39){
+//     alert("The Weather Today’s is Normal.")
+// }
+// else if(temp > 40){
+//     alert("It is too hot Outside.")
+// }
+
+// Task
