@@ -458,22 +458,188 @@
 // }
 
 // // Task xi
-var firstNum = +prompt("First Number.")
-var operator = prompt("Operation(/, *, +, -, %): ")
-var secondNum = +prompt("Second Number.")
-document.write("<b>Calculator</b> <br>")
-if(operator === "+"){
-    document.write("Answer: "+firstNum+" + "+secondNum+" = "+(firstNum+secondNum))
-}
-else if(operator === "-"){
-    document.write("Answer: "+firstNum+" - "+secondNum+" = "+(firstNum-secondNum))
-}
-else if(operator === "*"){
-    document.write("Answer: "+firstNum+" * "+secondNum+" = "+(firstNum*secondNum))
-}
-else if(operator === "/"){
-    document.write("Answer: "+firstNum+" / "+secondNum+" = "+(firstNum/secondNum))
-}
-else if(operator === "%"){
-    document.write("Answer: "+firstNum+" % "+secondNum+" = "+(firstNum%secondNum))
-}
+// var firstNum = +prompt("First Number.")
+// var operator = prompt("Operation(/, *, +, -, %): ")
+// var secondNum = +prompt("Second Number.")
+// document.write("<b>Calculator</b> <br>")
+// if(operator === "+"){
+//     document.write("Answer: "+firstNum+" + "+secondNum+" = "+(firstNum+secondNum))
+// }
+// else if(operator === "-"){
+//     document.write("Answer: "+firstNum+" - "+secondNum+" = "+(firstNum-secondNum))
+// }
+// else if(operator === "*"){
+//     document.write("Answer: "+firstNum+" * "+secondNum+" = "+(firstNum*secondNum))
+// }
+// else if(operator === "/"){
+//     document.write("Answer: "+firstNum+" / "+secondNum+" = "+(firstNum/secondNum))
+// }
+// else if(operator === "%"){
+//     document.write("Answer: "+firstNum+" % "+secondNum+" = "+(firstNum%secondNum))
+// }
+
+// Chapter 12-13
+
+// Task: i This code is not working..
+// var characters = prompt("Enter any Character from your Keyboard (Number or Aphabatic):")
+// if (characters >= 65 && characters <=90){
+//   alert("This is a Capital letter")  
+// }
+// else if(characters >= 97 && characters <= 122){
+//     alert("This is a Small letter")
+// }
+// else if(characters >= 48 && characters <= 57){
+//     alert("The Character is a digit.")
+// }
+
+// Task: ii
+// var int1 = +prompt("Enter an Integer number. ")
+// var int2 = +prompt("Enter second Integer number. ")
+// if(int1 === int2){
+//     alert("Both are Equal")
+// }
+// else if(int1 > int2){
+//     alert(int1+" is Greater than "+int2)
+// }
+// else if(int1 < int2){
+//     alert(int1+" is Less than "+int2)
+// }
+
+// Task: iii
+
+// Task: iv
+// var vowel = prompt("Enter any Aphabatic character.")
+// var vowelToLowerCase = vowel.toLowerCase()
+// if(vowelToLowerCase === 'a'||vowelToLowerCase === 'e'||vowelToLowerCase === 'i'||vowelToLowerCase === 'o'||vowelToLowerCase === 'u'){
+//     alert("True")
+// }
+// else if(vowelToLowerCase === 'y'){
+//     alert("Semi True")
+// }
+// else
+//     alert("False")
+
+// Task: v
+// var fbPassword = +prompt("Please enter your password.")
+// var yourPassword = 1234
+// if(fbPassword === yourPassword){
+//     alert("Correct! The password you entered matches the original password")
+// }
+// else alert("Incorrect password.")
+
+// Task: vi
+// var greeting;
+// var hour = 24;
+// if (hour < 18) {
+//     greeting = "Good day";
+//     alert(greeting)
+// }
+// else
+//     greeting = "Good evening";
+//     alert(greeting)
+
+// Task: vii
+// var time = +prompt("Enter Time (format 24 Hours like: 1900 = 07.00 pm)")
+// if(time >= 0000 && time < 1200){
+//     alert("Good Morning")
+// }
+// else if(time >= 1200 && time < 1700){
+//     alert("Good AfterNoor")
+// }
+// else if(time >= 1700 && time < 2100){
+//     alert("Good Evening")
+// }
+// else if(time >= 2100 && time <2359){
+//     alert("Good Night")
+// }
+
+// =====Chapter 14-16 Task: i
+// var arrLiteral = []
+// arrLiteral[0] = "Asad"
+
+// =====Chapter 14-16 Task: ii
+// var arrObj = []
+// arrObj.push("Ali")
+
+// =====Chapter 14-16 Task: iii
+// var arrStrings = ["This is String Exp.","Asad"]
+
+// =====Chapter 14-16 Task: iv
+// var arrNum = [786,768,867,687,678]
+
+// =====Chapter 14-16 Task: v and vi
+// var arrBolean = [0,1]
+// var arrmisxed = ["Asad",785,0,true]
+// alert(arrmisxed)
+
+// =====Chapter 14-16 Task: vii
+// var arrEdu = [" ","SSC", "HSC", "BCS", "BS", "BCOM", "MS", "M. Phil", "PhD"]
+// document.write("Qualification:<br>")
+// for(var i = 0; i <=8; i++){
+//     document.write(i+") "+arrEdu[i]+"<br>")
+// }
+
+// =====Chapter 14-16 Task: viii
+// var arrStud = ["Michael","John","Tony"]
+// var arrScor = [320,230,480]
+// for(a = 0; a<=2; a++){
+//     document.write("The Score of "+arrStud[a]+" is "+arrScor[a]+" . Percentage: "+arrScor[a]/500*100+"%. <br>")
+// }
+
+// =====Chapter 14-16 Task: ix
+// var arrColors =["Red","Green","Blue","Cyan"]
+// document.write("The available colors: "+arrColors)
+
+// =====Chapter 14-16 Task: x
+// var arrTotalScor =[320,230,480,120]
+// document.write("Score of Students: "+arrTotalScor+"<br>")
+// var arrOrderedScor =[]
+// arrOrderedScor.push(arrTotalScor[3])
+// arrOrderedScor.push(arrTotalScor[1])
+// arrOrderedScor.push(arrTotalScor[0])
+// arrOrderedScor.push(arrTotalScor[2])
+// document.write("Ordered Score of Students: "+arrOrderedScor)
+
+// =====Chapter 14-16 Task: xi
+// var cities =["karachi","hyderabad","Sukkur","Nawabshah","Umarkot"]
+// var selected = cities.slice(1,3)
+// document.write("Cities: "+cities+"<br>")
+// document.write("selected Cities: "+selected)
+
+// =====Chapter 14-16 Task: xii
+// var arr1 = ["This ", " is ", " my ", " cat."];
+// document.write("Array: <br>"+arr1+"<br>")
+// document.write("Strings: <br>"+arr1[0]+arr1[1]+arr1[2]+arr1[3])
+
+// =====Chapter 14-16 Task: xiii
+// var arr1Names = ["Keyboard"]
+// arr1Names.push("Mouse","CPU")
+// arr1Names.push("LCD")
+// arr1Names.push("Printer")
+// document.write("Devices: <br>")
+// document.write(arr1Names+"<br><br>")
+// for(var k = 4; k>= 0; k--){
+//     arr1Names.shift()
+//     document.write("Remaining: <br>"+arr1Names+"<br><br>")
+// }
+// =====Chapter 14-16 Task: xiv
+// var arr1Names = ["Keyboard"]
+// arr1Names.push("Mouse","CPU")
+// arr1Names.push("LCD")
+// arr1Names.push("Printer")
+// document.write("Devices: <br>")
+// document.write(arr1Names+"<br><br>")
+// for(var k = 4; k>= 0; k--){
+//     arr1Names.pop()
+//     document.write("Remaining: <br>"+arr1Names+"<br><br>")
+// }
+
+// =====Chapter 14-16 Task: xv
+// Could not Understand....
+
+// =====Chapter 17-20 Task: i
+
+// =====Chapter 17-20 Task: ii
+// =====Chapter 17-20 Task: iii
+// =====Chapter 17-20 Task: vi
+// =====Chapter 17-20 Task: v
