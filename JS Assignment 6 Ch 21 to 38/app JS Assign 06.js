@@ -98,7 +98,7 @@
 // var lastchar = userInput.charAt(userInput.length-1)
 // document.write("User Input: "+userInput+". <br> Last character of input is: "+lastchar)
 
-// =====Chapter 21 - 25 ==== Task: xvii
+// =====Chapter 21 - 25 ==== Task: xviii
 // var sentence = "The quick brown fox jumps over the lazy dog."
 // Could not get..
 
@@ -319,20 +319,100 @@ var totalMiliSec = today.getTime()
 // document.write("Answer:"+no1+" "+oprtr+" "+no2+" = "+g)
 
 // =====Chapter 35 - 38 ==== Task: v
-function squareRoot(a){
-    a = a*a
-    return a
-}
-var root = +prompt("Enter an integer.")
-var var1 = squareRoot(root)
-alert("The power of "+root+" is "+var1)
+// function squareRoot(a){
+//     a = a*a
+//     return a
+// }
+// var root = +prompt("Enter an integer.")
+// var var1 = squareRoot(root)
+// alert("The power of "+root+" is "+var1)
 
 // =====Chapter 35 - 38 ==== Task: vi
+// function factorial(){
+//     var f= 4;
+//     for(var i = f; i >=1; i--){
+//         var fact =+ f*i;
+//     }
+// alert(fact)
+//     // return fact;
+// }
+// factorial()
+    // var value1 = +prompt("Enter an integer.")
+    // var var2 = factorial(value1)
+    // alert("The Factorial of "+value1+" is "+var2)
 
 // =====Chapter 35 - 38 ==== Task: vii
+// function count (start,end){
+//     document.write("Counting Begins: <br>")
+//     for(var i = start; i>=end; i--){
+//         document.write(" "+i+"<br>")
+//     }
+//     document.write("Counting Ends:")
+// }
+// var begin = +prompt("Enter an integer to Start Counting.")
+// var finish = +prompt("Enter another Number, Where to stop.")
+// count(begin,finish)
 
 // =====Chapter 35 - 38 ==== Task: viii
+// function calculateHypotenuse(base,perpen){
+//     base = base*base
+//     perpen = perpen*perpen
+//     hyp = (base)+(perpen)
+//     return hyp
+// }
+// var h = calculateHypotenuse(5,3)
+// document.write("Hyptenuse<sup>2</sup> = "+h)
 
 // =====Chapter 35 - 38 ==== Task: ix
+// function areaRect(width,height){
+//     document.write("Width = "+width+"<br>")
+//     document.write("Height is = "+height+"<br>")
+//     var Area = width*height
+//     return Area;
+// }
+// var r = areaRect(12,10)
+// document.write("The area of Rectangle is = "+r)
 
 // =====Chapter 35 - 38 ==== Task: x
+
+// =====Chapter 35 - 38 ==== Task: xi case
+// function capslock (defaultCaps){
+//     // var defaultCaps = "defaultCaps of karachi";
+//     var strArr = defaultCaps.split(" ")
+//     var capital, smallCaps1
+//     document.write("User Input text: "+defaultCaps+"<br>")
+//     for(var j =0; j<strArr.length; j++){
+//         capital = strArr[j].slice(0,1)
+//         capital = capital.toUpperCase()
+//         smallCaps1 = strArr[j].slice(1)
+//         smallCaps1 = smallCaps1.toLowerCase()
+//         document.write(" "+capital+smallCaps1+" \t")
+//     }
+// }
+// var smallCaps = prompt("Enter some Text.")
+// capslock(smallCaps)
+
+// =====Chapter 35 - 38 ==== Task: xii
+// Could not get
+
+// =====Chapter 35 - 38 ==== Task: xiii
+// Could not get
+
+// =====Chapter 35 - 38 ==== Task: xiv (a)
+document.write("<h1>The Geometrizer</h1>")
+function calcCircumference(radius){
+    var circumference = 2*3.142*radius
+    document.write("The Radius is: "+radius+"<br>")
+    document.write("The circumference is: "+circumference+"<br>")
+}
+var rad = +prompt("Enter the radius of Circle of Measure Circumference.")
+calcCircumference(rad)
+
+// =====Chapter 35 - 38 ==== Task: xiv (b)
+function calcArea(radius){
+    var area = 3.142*radius*radius
+    document.write("The Radius is: "+radius+"<br>")
+    document.write("Radius of Circle is: "+area+"<br>")
+}
+var rad = +prompt("Enter the radius of Circle of Measure Area.")
+calcArea(rad)
