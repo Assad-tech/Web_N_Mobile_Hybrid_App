@@ -1,0 +1,74 @@
+body {
+    background-image: url(../img/todo/sticky3.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-align: center;
+}
+
+h1 {
+    color: white;
+}
+h2{
+    background-color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: inline-block;
+    padding: 10px;
+    margin: 05px;
+    border-radius: 5px;
+}
+
+.btnDel {
+    border: none;
+    border-radius: 6px;
+    background-color: red;
+    width: 85px;
+    height: 30px;
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.btnAdd {
+    border: none;
+    border-radius: 6px;
+    background-color: green;
+    width: 55px;
+    height: 30px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 10px;
+}
+#todo-task{
+    border: none;
+    background-image: url(../img/todo/sticky4.png);
+    font-size: 18px;
+    width: 200px;
+    height: 30px;
+    color:black;
+}
+#inputDiv{
+    margin-top: 5px;
+
+}
+
+.btnEdit {
+    border: none;
+    border-radius: 6px;
+    background-color: yellowgreen;
+    width: 60px;
+    height: 30px;
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+    margin-left: 10px;
+}
+#todoBody{
+    text-align: center;
+    width: 32%;
+    height: 400px;
+    background-image: url(../img/todo/sticky4.png);
+    background-repeat: no-repeat;
+}
